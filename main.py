@@ -27,7 +27,7 @@ class CanvasImage:
             self.canvas.config(width=w, height=h)
             self.canvas.create_image((0, 0), image=self.img, anchor=NW)
             self.canvas.create_text(
-                (w-75, h-25), text="TAIR", fill="RED", font=('Arial', 50))
+                (w-75, h-25), text="Watermark", fill="RED", font=('Arial', 35))
 
 
 if __name__ == "__main__":
